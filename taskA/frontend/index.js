@@ -3,7 +3,7 @@ let categoryFilterEl = document.getElementById("categoryFilter");
 let minPriceEl = document.getElementById("minPrice");
 let maxPriceEl = document.getElementById("maxPrice");
 let resultsTableBodyEl = document.getElementById("resultsTableBody");
-const BaseURL = 'http://localhost:3000';
+const BaseURL = 'https://assigmentzeerostock.onrender.com';
 
 async function fetchProducts() {
     let searchVal = searchInputEl.value;
