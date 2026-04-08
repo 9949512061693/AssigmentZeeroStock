@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.bg-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.sub-title {
+    color: #453a3a;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (max-width :768) {
+    .sub-title {
+        font-size: 0.6rem;
+        margin: 1rem 1rem 0.5rem 1rem;
+    }
+}
+
+.search-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+.search-name {
+    height: 30px;
+    width: 80%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width :768px) {
+    .search-name {
+        width: 350px;
+        height: 35px;
+    }
+}
+
+.search-category {
+    height: 30px;
+    width: 40%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 0.1rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width :768px) {
+    .search-category {
+        width: 300px;
+        height: 35px;
+    }
+}
+
+.search-price {
+    height: 30px;
+    width: 40%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 0.1rem;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width :768px) {
+    .search-price {
+        width: 300px;
+        height: 35px;
+    }
+}
+
+.results-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+}
